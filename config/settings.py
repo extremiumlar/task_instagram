@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
 
     # o'zim yaratgan applar
-    'task_instagram',
+    'asosiy',
 ]
 
 MIDDLEWARE = [
@@ -184,7 +184,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'asosiy.User'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# AUTH_USER_MODEL = 'Yord.User'
+
